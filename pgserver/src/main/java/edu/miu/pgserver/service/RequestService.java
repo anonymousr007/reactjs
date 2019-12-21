@@ -67,7 +67,7 @@ public class RequestService {
             LinkedHashMap<String,Object> map = (LinkedHashMap<String, Object>) o;
             String name = (String) map.get(requestMap.get("name"));
             Integer size = (Integer) map.get(requestMap.get("size"));
-            size = size;
+
             School school = new School(name,size);
             schools.add(school);
         }
